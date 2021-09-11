@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+}
+
+header,footer{ 
+	width: 100%;
+	height: 40px;
+	background-color: #000; 
+	position: fixed; 
+}
+
+header{
+	top: 0;
+	display: flex;
+}
+
+footer{
+	height: 100px; 
+	border-bottom: 0;
+	position: fixed; 
+	bottom: 0;
+}
+
+.divf{ /*agrupamento dos links*/
+	margin: 3px;
+	position: absolute;
+	right: 20%;
+	display: flex;
+
+}
+
+.divd{ 
+	width: 90px;
+	height: 35px;
+	margin-top: 1px;
+	margin-right: 20px;
+	font-size: 14px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+a{ 
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a:hover{ /*mudarça da cor do botao*/
+	width: 90px;
+	height: 35px;
+	background-color: orange; 
+	border-radius: 16px;
+}
+
+#logo{
+	width: 90px;
+	height: 35px;
+	margin-top: 10px;			
+	position: absolute;
+	left: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+p#posicao{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+.divti{ 
+	width: 200px;
+	height: 40px;			
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 40px;
+
+}
+.academy{		
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.l-div{ 
+	margin-top: 150px;
+	width: 400px;
+	height: 205px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;	       
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.l-int{  
+	width: 200px;
+	border-right: 1px dashed #000;
+	background-color: lightgrey;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 30px;
+}
+
+.l-text{ 
+
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;		
+} 
+
+#form{
+	width: 150px;
+	height: 200px;		
+	height: auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+input{
+	margin: 5px;
+}
+
+.btn{
+	background-color: orange;
+}
